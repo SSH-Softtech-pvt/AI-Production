@@ -1,0 +1,44 @@
+# Runtime
+venv/
+.env
+*.env
+.env.*
+.dsecrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.mypy_cache/
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+.next/
+dist/
+build/
+coverage/
+
+# Data / ML
+ml/data/datasets/
+ml/models/registry/
+ml/models/deployment/checkpoints/
+rag/vector_store/
+*.ckpt
+*.pt
+*.h5
+
+# Logs and temp files
+logs/
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Generated docs/assets
+/public/
+docs/**/generated/
+assets/diagrams/exported/
